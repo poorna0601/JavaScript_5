@@ -1,0 +1,18 @@
+body{
+    background-color:aquamarine;
+    text-align: center;
+    border: 10px;
+    padding: 2px;
+    border-radius: 5px;
+
+}
+tr td{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+
+}
+
+input[type="text"]{
+    background-color: aqua;
+    
+}
