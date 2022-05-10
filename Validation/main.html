@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Validation</title>
+
+
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <center>
+<form name="form" method="post">
+<table border="5">
+<tr>
+<td> Name: </td>
+<td> <input type="text" name="name"> </td>
+</tr>
+<tr>
+<td> Age: </td>
+<td> <input type="text" name="age"> </td>
+</tr>
+<td> Email: </td>
+<td> <input type="text" name="email"> </td>
+</tr>
+<td> Phone Number: </td>
+<td> <input type="text" name="ph"> </td>
+</tr>
+<td> Gender: </td>
+<td> Female : <input type="radio" name="opt2">
+Male : <input type="radio" name="opt2"> </td>
+</tr>
+<td> Department: </td>
+<td>
+<select id="dept">
+<option>CSE</option>
+<option>MECH</option>
+<option>CIVIL</option>
+<option>ARCH</option>
+<option>EEE</option>
+<option>ECE</option>
+<option>IT</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>subjects</td>
+<td><input type="checkbox" name="opt">python</td>
+</tr>
+<tr>
+<td></td>
+<td><input type="checkbox" name="opt">JAVA</td>
+</tr>
+<tr>
+<td></td>
+<td><input type="checkbox" name="opt">C LANGUAGE</td>
+</tr>
+<tr>
+<td>
+<input id="sub" type="submit" name="submit" style="visibility: hidden;"/>
+<input type="button" value="click" onclick="check()"/>
+<input type="reset" name="reset"/>
+</td>
+</tr>
+</form>
+</center>
+</body>
+</html>
